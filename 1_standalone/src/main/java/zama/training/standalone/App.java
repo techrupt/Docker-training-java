@@ -6,7 +6,7 @@ public class App {
 	private static Integer counter = 0;
 	
 	public static void main(String[] args) throws InterruptedException {
-		String javaVersion = "919_Zama - Java version: "+System.getProperty("java.version")+": ";
+		String javaVersion = "1240_Akshay - Java version: "+System.getProperty("java.version")+": ";
 		
 		while(true){
 			System.out.println(javaVersion + new Date() +" - Event: "+counter );
